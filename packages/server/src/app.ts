@@ -1,6 +1,6 @@
 import express from "express";
 import config from "./config/default";
-import { mergeRouters, createContext, router } from "./utils/trpc";
+import { createContext, router } from "./utils/trpc";
 import * as AppRoutes from "./routes";
 import * as trpcExpress from "@trpc/server/adapters/express";
 import cors from "cors";

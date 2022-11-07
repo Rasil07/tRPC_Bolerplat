@@ -8,7 +8,7 @@ import { trpc } from "./utils/trpc";
 
 function AppContent() {
   const hello = trpc.cat.get.useQuery();
-  console.log({ hello });
+
   return (
     <div
       style={{
